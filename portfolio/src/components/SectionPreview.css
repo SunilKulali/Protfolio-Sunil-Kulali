@@ -1,0 +1,80 @@
+.home-section {
+  padding: 72px 0;
+}
+
+.home-section-header {
+  margin-bottom: 28px;
+}
+
+.home-section-title-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.home-section-title-row .section-title {
+  margin-bottom: 0;
+  flex: 1;
+  min-width: 200px;
+}
+
+.section-view-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+  padding: 8px 16px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  background: var(--accent-dim);
+  transition: 0.25s var(--transition);
+}
+
+.section-view-all:hover {
+  background: rgba(255, 215, 0, 0.2);
+  border-color: rgba(255, 215, 0, 0.35);
+  gap: 10px;
+}
+
+.section-preview-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-preview-body {
+  padding: 28px;
+  cursor: pointer;
+}
+
+.section-preview-body:hover {
+  border-color: rgba(255, 215, 0, 0.35);
+}
+
+.section-preview-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  transition: 0.2s;
+}
+
+.section-preview-link:hover .section-preview-cta {
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .home-section-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
