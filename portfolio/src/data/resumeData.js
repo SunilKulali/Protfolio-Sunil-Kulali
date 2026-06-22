@@ -236,7 +236,7 @@ export const projects = [
 
 export const experience = [
   {
-    year: '2023',
+    year: '2025',
     title: 'Data Analyst Intern',
     company: 'IT Vedant, Bengaluru',
     role: 'da',
@@ -248,8 +248,8 @@ export const experience = [
     ],
   },
   {
-    year: '2022',
-    title: 'Data Analyst Intern',
+    year: '2026',
+    title: 'Machine Learning Intern',
     company: 'CODE-B Solutions Pvt. Ltd., Mumbai',
     role: 'da',
     points: [
@@ -334,7 +334,7 @@ export const chatKnowledge = [
   },
   {
     keywords: ['experience', 'intern', 'internship', 'work', 'job', 'company'],
-    answer: `Work Experience:\n• Data Analyst Intern @ IT Vedant, Bengaluru (2023) — Python, SQL, Power BI, KPI dashboards\n• Data Analyst Intern @ CODE-B Solutions, Mumbai (2022) — SQL reports, Python analytics, Power BI\nBoth roles involved real-world data analysis, reporting automation, and dashboard development.`,
+    answer: `Work Experience:\n• Data Analyst Intern @ IT Vedant, Bengaluru (2025) — Python, SQL, Power BI, KPI dashboards\n• Machine Learning Intern @ CODE-B Solutions, Mumbai (2026) — SQL reports, Python analytics, Power BI\nBoth roles involved real-world data analysis, reporting automation, and dashboard development.`,
   },
   {
     keywords: ['project', 'projects', 'portfolio', 'github'],
